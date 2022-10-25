@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author = { "Tristan Himmelman" => "tristanhimmelman@gmail.com" }
   s.source = { :git => 'https://github.com/tristanhimmelman/AlamofireObjectMapper.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '14.0'
   s.osx.deployment_target = '10.12'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '10.0'
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'AlamofireObjectMapper/**/*.swift'
-  s.dependency 'Alamofire', '5.0.0-rc.3'
-  s.dependency 'ObjectMapper', '~> 3.5.1'
+  s.dependency 'Alamofire', '5.6.2'
+  s.dependency 'ObjectMapper', '~> 3.5.3'
 end
